@@ -15,14 +15,14 @@ In order to run the worflow, following User input is required:
  - data_path, file path to the Test_Images directory provided in the repository
  - username, default includes 'testuser'
  - experiment_ID, default set to 'test_data_160909IL003'
- - experiment_ID folder should contain following subfolders:
+
+experiment_ID folder should contain following subfolders:
  - MIPs_Overviews*, should contain Maximum intensity projection images, expected finame pattern is: 
 [Prefix(optional)]_[plate_name]_[well_name]_*[channel_name]
  - SIPs_Overviews*, should contain Maximum intensity projection images, expected finame pattern is: 
 [Prefix(optional)]_[plate_name]_[well_name]_*[channel_name]
  * can be any combination of characters and digits and plate_name should be 11 characters long.
-
-plate_name , default set to  '160909IL003'
+ - plate_name , default set to  '160909IL003'
 
 settings_file_demo.m:
 
