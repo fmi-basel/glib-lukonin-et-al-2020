@@ -9,13 +9,13 @@ Main function that runs the workflow, output is a 16-bit labeled image with inte
 
 In order to run the worflow, following User input is required:
 
-install_path, directory with the repository code
+ - install_path, directory with the repository code
 	path to the imaging data is expected to have the following structure: 
 	[data_path]\[username]\[experiment_ID]\
-data_path, file path to the Test_Images directory provided in the repository
-username, default includes 'testuser'
-experiment_ID, default set to 'test_data_160909IL003'
-experiment_ID folder should contain following subfolders:
+ - data_path, file path to the Test_Images directory provided in the repository
+ - username, default includes 'testuser'
+ - experiment_ID, default set to 'test_data_160909IL003'
+ - experiment_ID folder should contain following subfolders:
  - MIPs_Overviews*, should contain Maximum intensity projection images, expected finame pattern is: 
 [Prefix(optional)]_[plate_name]_[well_name]_*[channel_name]
  - SIPs_Overviews*, should contain Maximum intensity projection images, expected finame pattern is: 
