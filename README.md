@@ -19,10 +19,10 @@ In order to run the worflow, following User input is required:
 experiment_ID folder should contain following subfolders:
  - MIPs_Overviews*, should contain Maximum intensity projection images, expected finame pattern is: 
 [Prefix(optional)]_[plate_name]_[well_name]_*[channel_name]
- - SIPs_Overviews*, should contain Maximum intensity projection images, expected finame pattern is: 
+ - SIPs_Overviews*, should contain Sum intensity projection images, expected finame pattern is: 
 [Prefix(optional)]_[plate_name]_[well_name]_*[channel_name]
  * can be any combination of characters and digits and plate_name should be 11 characters long.
- - plate_name , default set to  '160909IL003'
+ - plate_name , default set to  '160909IL003', expected to be 11 characters long
 
 settings_file_demo.m:
 
